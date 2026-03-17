@@ -5,6 +5,6 @@ st.title("QR Code Generator")
 
 data = st.text_input("Enter text or URL", "Python is fun ")
 
-if data =
+if data :
     img = qr.code.make(data)
     st.image(img)
